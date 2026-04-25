@@ -33,7 +33,7 @@ def lru(pages, capacity):
 
     for i, page in enumerate(pages):
         if page not in memory:
-            faults += 1
+            faults += 1 
             if len(memory) < capacity:
                 memory.append(page)
             else:
