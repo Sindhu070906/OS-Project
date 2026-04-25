@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import matplotlib
-matplotlib.use('TkAgg')   # ✅ FIX: prevents matplotlib crash
+matplotlib.use('TkAgg')   # ✅ FIX: prevents matplotlib crash        
 import matplotlib.pyplot as plt
 
 print("GUI Starting...")
