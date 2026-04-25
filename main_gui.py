@@ -47,7 +47,7 @@ def lru(pages, capacity):
     return faults
 
 
-def optimal(pages, capacity):
+def optimal(pages, capacity): 
     memory = []
     faults = 0
 
