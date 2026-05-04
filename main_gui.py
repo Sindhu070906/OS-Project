@@ -4,7 +4,7 @@ import matplotlib
 matplotlib.use('TkAgg')   # ✅ FIX: prevents matplotlib crash        
 import matplotlib.pyplot as plt
 
-print("GUI Starting...")
+print("GUI Starting...")  
 
 # ---------------- ALGORITHMS ---------------- #
 
